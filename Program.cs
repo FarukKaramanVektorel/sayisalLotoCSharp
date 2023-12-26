@@ -3,9 +3,8 @@ using System;
 public class Program
 {
 	public static void Main()
-	{
-		Console.WriteLine("Hello World");
-		 Console.WriteLine("Tahmini sayisal loto sonuclari");
+	{		
+	
             Random rndNumber = new Random();
             bool oyun = true;
             bool reNumber = false;
@@ -27,8 +26,7 @@ public class Program
                         reNumber = true;
                     }
                 }
-            }
-            
+            }           
            
             Array.Sort(loto);
             Console.WriteLine("Tahmini sayisal loto sonuclari");
